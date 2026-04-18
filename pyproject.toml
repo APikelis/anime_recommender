@@ -1,0 +1,22 @@
+[project]
+name = "anime_recommender"
+version = "0.1.0"
+description = "Anime recommender system"
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "langchain==0.2.16",
+    "langchain-community==0.2.16",
+    "langchain_groq==0.1.9",
+    "chromadb==0.5.5",
+    "streamlit==1.37.1",
+    "pandas==2.2.2",
+    "python-dotenv==1.0.1",
+    "sentence-transformers==3.0.1",
+    "langchain_huggingface==0.0.3"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
